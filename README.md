@@ -1,42 +1,22 @@
-# Image-Manip
+# Project Summary 
+Starter code was created by Professor Dion at the University of Vermont. My partner for the project was Elizabeth Lembach. 
 
-Create a fun image manipulator!
+This program utilizes two languages to allow for an image manipulation. The program allows for users to input new images as long as they are 
+in the form of a jpg, jpeg, or gif. Once the image is uploaded into the program, the user has the option to manipulate the picture into three different options. The three different options include flip, mirror, and invert.
 
-For this project, you will use C++ and Python to manipulate an image by flipping, mirroring, and inverting it.
+Running the Program 
+- The program begins with C++ and displays to the user, "Welcome to the image manipulator!"
+- Then the programs asks the user to "Enter filename"
+- Then "using file" will print
+- Following, the program will print: "Select an option: " and given four choices with corresponding inputs
+-    'a' for flip
+-    'b' for mirror
+-    'c' for invert
+-    'd' for exit 
+- After the user selects an option, the program will run and display "Processing. Go to Python program when it opens. May take a few seconds."
+- Then the screen will pop up and display whatever the user has selected with the manipulation.
 
-You may work individually or with a partner of your choosing.
+The options will either flip the original image over the x-asix or y-axis. If the invert option is chosen, the image creates a kaleideescope effect with the image flipping over the y-axis first and then that doubled image over the x-axis.
 
-## Setup
-
-Use this Guided Project template to create a new repository (see [GitHub-with-CLion](https://github.com/uvmcs2300f2023/GitHub-with-CLion) repo for directions).
-**Your repository must be named with the convention: Image-Manip-netid**, where netid is your UVM NetID username.
-* If you are collaborating, the format is Image-Manip-netid1-netid2. Have one partner create the repository and give the other partner access on GitHub: on the repository page, go to the Settings tab, choose Manage Access, and add the person with their GitHub username.
-
-Remember to commit and push frequently.
-
-## Image Manipulations
-
-It is intended that you use CLion for this Guided Project.
-
-Your program will start in C++ and prompt the user for an image filename. After validating it, it will ask the user for a manipulation. Once it has that information, it calls the Python file and gives the information as command line arguments.
-
-The Python file uses the CV2 library to create the manipulated image. You will display the original image, the chosen manipulation next to it in a separate window, and then finally a kaleidoscope image (see `autumn.jpg` and `autumn_kaleidoscope.jpg` for an example of what this manipulation will look like).
-
-To get the program working, this is what you need to do:
-1. Read through `main.cpp`.
-1. Below main, implement the three functions declared above main.
-1. Read through `render.py`.
-1. Complete all TODOs in `render.py`.
-1. Run the program to manipulate autumn.jpg.
-    * If you get a Python import error: use pip in the command line to install the package, e.g. `pip3 install opencv-python`.
-1. Find at least one other valid image file, put it in your project folder, add it to Git, and run it through the image manipulator.
-    * Make sure your image is appropriate.
-
-## Grading
-
-If you are collaborating, both partners have to submit the project.
-
-### Grading Rubric
-- [ ] (6 pts) Implement the three functions in `main.cpp`.
-- [ ] (12 pts) Complete all TODOs in `render.py`.
-- [ ] (2 pt) Include a valid second image in your repository.
+## Languages Used 
+The languages used within this program include C++ and Python with a small portion of CMake. 
